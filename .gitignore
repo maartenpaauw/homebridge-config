@@ -1,0 +1,7 @@
+# Folders
+accessories/
+persist/
+
+# Files
+package-lock.json
+config.json

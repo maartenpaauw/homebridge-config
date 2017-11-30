@@ -1,0 +1,30 @@
+{
+  "name": "homebridge-config",
+  "version": "1.0.0",
+  "description": "Maarten Paauw's Homebridge configurtation files",
+  "keywords": [
+    "Homebridge",
+    "Homebridge Config"
+  ],
+  "homepage": "https://github.com/maartenpaauw/homebridge-config",
+  "bugs": {
+    "email": "maartenpaauw@gmail.com",
+    "url": "https://github.com/maartenpaauw/homebridge-config/issues"
+  },
+  "author": {
+    "name": "Maarten Paauw",
+    "email": "maartenpaauw@gmail.com",
+    "url": "http://www.maartenpaauw.com/"
+  },
+  "main": "config.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maartenpaauw/homebridge-config.git"
+  },
+  "license": "GPL-3.0",
+  "scripts": {
+  },
+  "dependencies": {
+    "homebridge-homeassistant": "3.0.1"
+  }
+}
