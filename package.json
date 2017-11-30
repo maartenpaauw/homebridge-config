@@ -26,5 +26,9 @@
   },
   "dependencies": {
     "homebridge-homeassistant": "3.0.1"
+  },
+  "greenkeeper": {
+    "branchPrefix": "dependency-update-",
+    "label": "dependency-update"
   }
 }
