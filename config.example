@@ -13,7 +13,7 @@
       "password": "INSERT_PASSWORD",
       "supported_types": ["automation", "binary_sensor", "climate", "cover", "device_tracker", "fan", "group", "input_boolean", "light", "lock", "media_player", "remote", "scene", "sensor", "switch", "vacuum"],
       "default_visibility": "hidden",
-      "logging": true,
+      "logging": false,
       "verify_ssl": true
     }
   ],
