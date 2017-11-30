@@ -22,10 +22,15 @@
     "url": "https://github.com/maartenpaauw/homebridge-config.git"
   },
   "license": "GPL-3.0",
-  "scripts": {
-  },
+  "scripts": {},
   "dependencies": {
     "homebridge-homeassistant": "3.0.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "5.2.0",
+    "@commitlint/config-angular": "5.1.1",
+    "husky": "0.14.3",
+    "lint-staged": "5.0.0"
   },
   "greenkeeper": {
     "branchPrefix": "dependency-update-",
