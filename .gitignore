@@ -5,3 +5,4 @@ persist/
 # Files
 package-lock.json
 config.json
+yarn.lock
