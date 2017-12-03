@@ -8,15 +8,13 @@ cache:
     - node_modules
 
 before_install:
-  - sudo apt-get install build-essential libavahi-compat-libdnssd-dev
+  - . ci/travis/before_install.sh
 
 install:
-  - npm install -g homebridge
-  - npm install
+  - . ci/travis/install.sh
 
 before_script:
-  - cp config.example config.json
-  - cp .env.example .env
+  - . ci/travis/before_script.sh
 
 script:
-  - homebridge & sleep 30 ; kill $!
+  - . ci/travis/script.sh
