@@ -1,0 +1,22 @@
+language: node_js
+node_js: 8
+
+sudo: enabled
+
+cache:
+  directories:
+    - node_modules
+
+before_install:
+  - sudo apt-get install build-essential libavahi-compat-libdnssd-dev
+
+install:
+  - npm install -g homebridge
+  - npm install
+
+before_script:
+  - cp config.example config.json
+  - cp .env.example .env
+
+script:
+  - homebridge & sleep 30 ; kill $!
