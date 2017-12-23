@@ -6,3 +6,4 @@ persist/
 package-lock.json
 config.json
 yarn.lock
+startup.sh
